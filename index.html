@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girasoles de Ensueño</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="not-loaded">
+  <!-- Contenedor del cielo -->
+  <div class="sky">
+    <!-- Sol detrás de las flores -->
+    <div class="sun"></div>
+    
+    <!-- Partículas -->
+    <div class="particles">
+      <div class="particle" style="left:20%; animation-delay:0s;"></div>
+      <div class="particle" style="left:40%; animation-delay:1s;"></div>
+      <div class="particle" style="left:60%; animation-delay:2s;"></div>
+      <div class="particle" style="left:75%; animation-delay:3s;"></div>
+      <div class="particle" style="left:30%; animation-delay:4s;"></div>
+    </div>
+  </div>
+
+  <!-- Noche con estrella fugaz -->
+  <div class="night">
+    <div class="shooting-star"></div>
+  </div>
+
+  <!-- 🌻 Flores (no tocadas, igualitas a tu versión) -->
+  <div class="flowers">
+    <div class="flower flower--1">
+      <div class="flower__leafs flower__leafs--1">
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+
+    <div class="flower flower--2">
+      <div class="flower__leafs flower__leafs--2">
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+
+    <div class="flower flower--3">
+      <div class="flower__leafs flower__leafs--3">
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__leaf"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 📜 Poema -->
+  <div class="poem-card">
+    <p id="poem-text"></p>
+  </div>
+
+  <!-- 🎶 Botón de música -->
+  <button id="music-btn" class="control-btn">🎵</button>
+  <audio id="bg-music" loop>
+    <source src="Camila  Todo Cambió [Letra].mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ❤️ Botón mensaje secreto -->
+  <button id="secret-btn" class="control-btn">❤️</button>
+  <div id="secret-message">Como un girasol que busca la luz, yo te encontré a ti 🌻✨
+Eres ese sol que me llena de vida, la razón por la que todo cambió desde que llegaste a mi mundo.
+
+Y para que sientas lo que siento, te dejo esta canción que me recuerda a ti siempre, ♥ TE AMO MUCHO ♥</div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
